@@ -1,0 +1,30 @@
+/*
+Theme Name: #
+Theme URI: https://morox.dev
+Author: Yury Giraldo
+Description: #
+Version: 1.0.0
+Text Domain: #
+License: GNU v3 or Later 
+*/
+
+html {
+  box-sizing: border-box; /*Hack para Box Model */
+  scroll-behavior: smooth;
+}
+/* Evitar desbordamientos laterales */
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /*Hack para Box Model */
+}
+.container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
